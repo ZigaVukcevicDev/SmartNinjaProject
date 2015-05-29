@@ -29,7 +29,15 @@
   			
 			<app-example></app-example>
 
-      <ui-view</ui-view>
+
+      <a ui-sref="login">Prijava</a>
+      <a ui-sref="error">Napaka</a>
+      <a ui-sref="parent">Starš</a>
+       <a ui-sref="parent.child">Nestan otrok</a> 
+      <a ui-sref="parameter({name: 'Miha'})">Pojdi na Miha</a>
+
+
+      <ui-view></ui-view>
 
   		</div>
   	</div>
